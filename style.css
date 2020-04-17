@@ -81,6 +81,19 @@ ul li a svg:hover{
     height: 48px;
     transition: .2s;
 }
+form{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #2F353A;
+    background-color: #FDFDFD;
+    padding-left: 1%;
+    margin-right: 2%;
+}
 footer{
     display: flex;
     align-items: center;
@@ -116,8 +129,15 @@ footer a{
     ul{
         margin-right: 25px;
     }
+    form{
+        flex-direction: column;
+
+    }
+    input{
+        margin-bottom: 2%;
+    }
     footer{
         flex-direction: column;
-    }
+        }
 }
 
