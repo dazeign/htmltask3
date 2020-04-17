@@ -86,13 +86,29 @@ form{
     flex-direction: row;
 }
 input{
-    width: 180px;
+    width: 250px;
     height: 30px;
     border-radius: 5px;
     border: 1px solid #2F353A;
     background-color: #FDFDFD;
     padding-left: 1%;
     margin-right: 2%;
+}
+button{
+    color: #FDFDFD;
+    background-color: #26282C;
+    border-radius: 10px;
+    border: 1px solid #7F8489;
+    width: 80px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #7F8489;
+    border: 1px solid #1C1F22;
+    color: #1C1F22;
+    font-size: 14px;
+    transition: 0.5s;
+    box-shadow: rgba(61, 38, 38, 0.9);
 }
 footer{
     display: flex;
