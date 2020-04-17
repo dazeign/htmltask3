@@ -108,7 +108,11 @@ button:hover{
     color: #1C1F22;
     font-size: 14px;
     transition: 0.5s;
-    box-shadow: rgba(61, 38, 38, 0.9);
+
+}
+svg:hover{
+    transform: rotate(360deg);
+    transition: .8s;
 }
 footer{
     display: flex;
