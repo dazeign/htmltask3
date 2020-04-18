@@ -112,7 +112,7 @@ button:hover{
 }
 svg:hover{
     transform: rotate(360deg);
-    transition: .8s;
+    transition: .2s;
 }
 footer{
     display: flex;
